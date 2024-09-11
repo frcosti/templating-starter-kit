@@ -1,6 +1,15 @@
+// Import all the partials
+// ------------------------------
+// This is a good starting point to start coding the style of your project
 
-
+// The reboot.scss file is used to reset the browser's default styles
 @import './_reboot.scss';
+
+// The variables.scss file is used to define the variables used in the project
 @import './_variables.scss';
+
+// The typo.scss file is used to define the typography used in the project
 @import './_typo.scss';
+
+// The containers.scss file is used to define the containers used in the project
 @import './_containers.scss';

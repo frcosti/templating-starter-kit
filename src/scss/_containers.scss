@@ -7,8 +7,11 @@
     margin-right: auto;
     margin-left: auto;
 
+    // This loop sets the max-width of the container for each breakpoint
+    // It iterates through the $container-max-widths map and applies the corresponding max-width
+    // when the viewport width is greater than or equal to the breakpoint value
     @each $breakpoint, $container-max-width in $container-max-widths {
-        @media (min-width: map-get($breakpoints, $breakpoint)) {
+        @media (min-width: map-get($breakpoints, $breakpoint)) { 
             max-width: $container-max-width;
         }
     }
