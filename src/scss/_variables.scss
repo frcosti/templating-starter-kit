@@ -1,0 +1,45 @@
+// Variables
+// ------------------------------
+
+// Colors
+//
+$primary: #0d6efd;
+$color-text: #121212;
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+$font-family-base: 'Montserrat', sans-serif;
+
+// $font-size-root affects the value of `rem`, which is used for as well font sizes, paddings, and margins
+$font-size-root: 16px;
+
+// Breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+$breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+// Containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+
+$container-px: 1rem;
+
